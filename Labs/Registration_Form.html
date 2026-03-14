@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Registration Form</title>
+<style>
+    body{
+        font-family: Arial, sans-serif;
+        height:100vh;
+        display:flex;
+        justify-content:center;
+        align-items:center;
+        background: linear-gradient(120deg,#7aa0ff,#c46bff);
+    }
+
+    form{
+        background:white;
+        padding:20px;
+        border-radius:8px;
+        box-shadow:0 5px 15px rgba(0,0,0,0.2);
+    }
+
+    h2{
+        margin-bottom:20px;
+    }
+
+    table{
+        border-spacing:10px;
+    }
+
+    input{
+        padding:10px;
+        border:2px solid #ccc;
+        border-radius:6px;
+        width:180px;
+    }
+
+    button{
+        width:100%;
+        padding:12px;
+        border:none;
+        color:white;
+        font-size:16px;
+        border-radius:5px;
+        background: linear-gradient(to right,#6ea6ff,#b26bff);
+        cursor:pointer;
+    }
+</style>
+</head>
+
+<body>
+<form>
+    <h2>Registration</h2>
+<table>
+<tr>
+   <td>
+       <label for="name">Name:</label><br>
+       <input type="text" id="name" placeholder="Enter your name">
+   </td>
+
+   <td>
+       <label for="username">User Name:</label><br>
+       <input type="text" id="username" placeholder="Enter your username">
+   </td>
+</tr>
+
+<tr>
+   <td>
+       <label for="em">Email:</label><br>
+       <input type="email" id="em" placeholder="Enter your email">
+   </td>
+
+   <td>
+       <label for="number">Phone Number:</label><br>
+       <input type="text" id="number"  placeholder="Enter your number">
+   </td>
+</tr>
+
+<tr>
+   <td>
+       <label for="pwd">Password:</label><br>
+       <input type="password" id="pwd" placeholder="Enter your password">
+   </td>
+
+   <td>
+       <label for="pswd">Confirm Password:</label><br>
+       <input type="password" id="pswd" placeholder="Confirm password">
+   </td>
+</tr>
+
+<tr>
+   <td colspan="2">
+       <label for="gender">Gender:</label>
+       <input type="radio" name="gender" id="gender"> Male
+       <input type="radio" name="gender" id="gender"> Female
+       <input type="radio" name="gender" id="gender"> Prefer not to say
+   </td>
+</tr>
+
+<tr>
+   <td colspan="2">
+       <button type="submit">Register</button>
+   </td>
+</tr>
+</table>
+</form>
+</body>
+</html>

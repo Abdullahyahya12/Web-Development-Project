@@ -4,9 +4,40 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background: linear-gradient(120deg,#7aa0ff,#c46bff);
+        }
+   
+        label{
+            font-size: 14px;
+            margin-bottom: 5px;
+        }
+        input{
+            padding:10px;
+            border:1px solid #ccc;
+            border-radius:5px;
+        }
+        button{
+            width:100%;
+            padding:12px;
+            border:none;
+            color:white;
+            font-size:16px;
+            border-radius:5px;
+            background: linear-gradient(to right,#6ea6ff,#b26bff);
+            cursor:pointer;
+        }
+        
+    </style>
 </head>
 <body>
-    <h3>Registration Form</h3>
+    <h3 style="margin-bottom: 500px; text-align: center;justify-content: center; ">Registration Form</h3>
     <form action="">
         <label for="name">Full Name:</label> <br>
         <input type="text" name="" id="name"> <br> 
@@ -31,7 +62,7 @@
         <input type="radio" name="gender" id="gender">Female
         <input type="radio" name="gender" id="gender"> Prefer Not To say <br> <br>
 
-        <button type="button">Register</button>
+        <button type="submit">Register</button>
 
 
 
